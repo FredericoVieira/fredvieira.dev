@@ -24,6 +24,14 @@
       }
     }
 
+    &__row-direction:nth-child(even) {
+      flex-direction: row-reverse;
+    }
+
+    &__col-content {
+      margin: auto;
+    }
+
     &__text {
       text-align: left;
 
@@ -31,7 +39,10 @@
         margin-bottom: 2.5rem !important;
       }
       @include respond(tab-land) {
-        margin-bottom: 4.8rem;
+        margin-bottom: 4.8rem !important;
+      }
+      @include respond(tab-port) {
+        margin-bottom: 0;
       }
 
       &-title {

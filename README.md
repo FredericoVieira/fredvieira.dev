@@ -18,5 +18,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ### TODO's
 
-[] Add more tech icons to readme
-[] Switch between left and right the images on projects list
+- [] Add more tech icons to readme
